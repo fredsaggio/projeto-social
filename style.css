@@ -4,3 +4,27 @@
     padding: 0px;
     margin: 0px;
 }
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: black url('imagens/fundo-madeira.jpg') no-repeat Fixed top center;
+    background-size: cover;
+}
+
+main{
+    width: 100vw; 
+    position: relative;
+}
+
+section#iphone{
+    position: absolute;
+    left: 50%;
+    top: 200px;
+    width: 311px;
+    height: 627px;
+}
+
+section#iphone img{
+    object-fit: cover;
+}
